@@ -1,11 +1,12 @@
 fn main() {
     let x = {
         let y = 0;
-        y + return_value()*1
+        y + return_value() * 1
     };
+
     println!("Hello, world! {}", x);
 }
 
-fn return_value()->i32{
-  56
+fn return_value() -> i32 {
+    56
 }
